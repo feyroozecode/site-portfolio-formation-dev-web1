@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0;
+   
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+ 
+}
+
+.header{
+    width: 100%;
+    background-color: darkslategrey;
+    padding-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header img {
+    height: 64px;
+    width: 64px;
+}
+
+.header ul li {
+    display: inline-block;
+    color: white;
+    margin-right: 11px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*  appliquer ce style uant le curseur survol  */
+.header ul li:hover{
+    background-color: darkcyan;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.welcome-bg {
+    height: 300px;
+    width: 100%;
+    background-image: url('../assets/bg3.jpeg') ;
+    
+    opacity: 0.7;
+    text-align: center;
+}
+
+.welcome-bg h1{
+    color: white;
+    padding-top: 120px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.welcome-bg h4{
+    margin-top: 15px;
+    font-size: 17px;
+    color: wheat;
+}
+
+.welcome-bg button{
+    text-align: center;
+    padding: 7px;
+    background-color: rgb(22, 158, 158);
+}
+
+.welcome-bg button a {
+    color: aliceblue;
+}
+
+.nos-service {
+    padding-left: 10px;   
+    
+}
+
+.list-service{
+    margin-top: 20px;
+    display: flex;
+    padding: 10px;
+}
+
+.service{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.service .service-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* formulaire de contact */
+.contact-form{
+    margin: 20px;
+}
+
+.contact-form .form-group {
+    min-width: 60%;
+    margin: 7px;
+}
+
+.contact-form button {
+    padding: 5px;
+    background-color: darkslategray;
+    color: white;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    padding: 30px;
+    background-color: darkslategray;
+    position: absolute;
+
+}
