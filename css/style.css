@@ -76,19 +76,22 @@ body{
 
 .nos-service {
     padding-left: 10px;   
-    
+    padding-top: 25px;
 }
 
 .list-service{
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .service{
     background-color: white;
     margin: 10px;
     padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(160, 159, 159, 0.527);
+    border-radius: 18px;
 }
 
 .service .service-title {
